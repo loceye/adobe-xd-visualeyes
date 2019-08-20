@@ -79,6 +79,7 @@ function createHeatmapLayer(rectangle, artboard) {
 function uploadImage(image, apiKey) {
   const formData = new FormData();
   formData.append("isTransparent", "true");
+  formData.append("platform", "adobexd");
   formData.append("image", image);
 
   return new Promise(function(resolve, reject) {
