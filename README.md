@@ -8,6 +8,7 @@
   Generate attention heatmaps without ever leaving your favorite design environment.
 </div>
 <br/>
+
 <img src="./assets/demo.gif"/>
 
 ## Installation
