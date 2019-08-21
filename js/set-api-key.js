@@ -77,7 +77,10 @@ function create(settingsFile) {
             <input type="text" uxp-quiet="true" id="input" value="${previousKey}" placeholder="Type in your API key" />
           </label>
         </div>
-        <footer><button id="set" type="submit" uxp-variant="cta">Set key</button></footer>
+        <footer>
+          <button id="cancel">Cancel</button>
+          <button id="set" type="submit" uxp-variant="cta">Set key</button>
+        </footer>
       </form>
     </dialog>
 
@@ -95,6 +98,9 @@ function create(settingsFile) {
   const dialog = document.querySelector("#dialog");
   document.querySelector("#set").addEventListener("click", writeApiKey);
   document.querySelector("#main").addEventListener("submit", writeApiKey);
+  document
+    .querySelector("#cancel")
+    .addEventListener("click", () => dialog.close("reasonCanceled"));
   dialog.showModal();
 }
 
