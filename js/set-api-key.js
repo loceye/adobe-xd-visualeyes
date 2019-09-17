@@ -69,7 +69,7 @@ function create(settingsFile) {
       <form method="dialog" id="main">
         <div class="description">
           <h1>Set your API key</h1>
-          <p>Find your API key on our <a href="https://visualeyes.loceye.io/subscribe.html?tool=adobeXD" class="anchor">website</a></p>
+          <p>Find your API key on our <a href="https://www.visualeyes.design/subscribe/?tool=adobeXD" class="anchor">website</a></p>
         </div>
         <div class="row break">
           <label class="row">

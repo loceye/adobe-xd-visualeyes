@@ -10,8 +10,8 @@
   "description": "Validate your design decisions inside your favourite design tool. We combine leading neuroscience research with AI to accurately predict how people will react to your digital designs.",
   "languages": ["en"],
   "author": "Dimitris Raptis",
-  "website": "https://visualeyes.loceye.io",
-  "helpUrl": "https://visualeyes.loceye.io",
+  "website": "https://www.visualeyes.design",
+  "helpUrl": "https://www.visualeyes.design",
   "keywords": ["attention", "heatmap", "predictive", "predict"],
 
   "icons": [
@@ -44,14 +44,20 @@
   "uiEntryPoints": [
     {
       "type": "menu",
-      "label": "Set API key",
+      "label": "🔑 Set API key",
       "commandId": "setApiKey"
     },
     {
       "type": "menu",
-      "label": "Generate Heatmap",
+      "label": "🔥 Generate Heatmap",
       "commandId": "generateHeatmap",
       "shortcut": { "mac": "Cmd+Alt+L", "win": "Ctrl+Alt+L" }
+    },
+    {
+      "type": "menu",
+      "label": "🚧 Get Areas of Interest",
+      "commandId": "getAOI",
+      "shortcut": { "mac": "Cmd+Alt+A", "win": "Ctrl+Alt+A" }
     }
   ]
 }
